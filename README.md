@@ -9,11 +9,11 @@ This repository contains test plan and test cases for the Allegro.pl e-commerce 
 
 ## TestRail Usage
 
-I have utilized TestRail, a popular test case management tool, to create and manage our test cases. 
+I have utilized TestRail, a popular test case management tool, to create and manage my test cases. 
 
 ## Getting Started
 
-To get started with this project, simply clone this repository or download the `.md` files to your local machine. You can then open the files in any Markdown editor or text editor to view and edit the test plans and test cases.
+To get started with this project, simply clone this repository or download the `.md` files to your local machine. You can then open the files in any Markdown editor or text editor to view and edit the test plan and test cases.
 
 ## Contributing
 
