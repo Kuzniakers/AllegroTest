@@ -1,111 +1,117 @@
-# Plan testów dla Allegro.pl
+# Test Plan for Allegro.pl
 
-**Wersja:** 1.0  
-**Data:** 01.05.2023  
-**Przygotował:** Kuźniak Konrad
+**Version:** 1.0  
+**Date:** 01.05.2023  
+**Prepared by:** Konrad Kuźniak  
 
-## Wstęp
+## Introduction
 
-### 1. Cel testów
+### 1. Objective of Testing
 
-- Celem testowania strony Allegro.pl jest zapewnienie wysokiej jakości oprogramowania, sprawdzenie poprawności funkcjonowania wszystkich funkcji serwisu oraz wykrycie i naprawa błędów, które mogą wpłynąć na doświadczenie użytkowników.
+- The objective of testing Allegro.pl is to ensure high software quality, verify the correctness of all platform functionalities, and identify and fix any issues that may impact the user experience.
 
-### 2. Zakres testów
+### 2. Scope of Testing
 
-- Zakres testów obejmuje wszystkie istotne funkcje serwisu Allegro.pl, takie jak logowanie, rejestracja, wyszukiwanie, filtrowanie, dodawanie do koszyka, realizacja zamówień, zarządzanie kontem oraz interakcje między kupującymi i sprzedającymi.
+- The scope of testing includes all key functionalities of Allegro.pl, such as login, registration, search, filtering, adding items to the cart, order processing, account management, and interactions between buyers and sellers.
 
-## Zasoby
+## Resources
 
-### 1. Personel
+### 1. Personnel
 
-- QA Engineer: odpowiedzialny za przeprowadzenie testów, raportowanie błędów oraz za nadzorowanie procesu testowania i analizę wyników testów.
+- **QA Engineer:** Responsible for conducting tests, reporting defects, supervising the testing process, and analyzing test results.
 
-### 2. Narzędzia
+### 2. Tools
 
-- TestRail: do zarządzania przypadkami testowymi i raportowania wyników testów.
-- JIRA: do zarządzania zgłoszeniami błędów i śledzenia postępów.
-- JMeter: do testowania strony pod obciążeniem
+- **TestRail:** For managing test cases and reporting test results.
+- **JIRA:** For defect tracking and progress monitoring.
+- **JMeter:** For load testing the website.
 
-### 3. Środowisko testowe
+### 3. Test Environment
 
-- Sprzęt: Komputer stacjonarny oraz smartfon
-- Przeglądarka: Chrome (wersja 88) oraz Mozilla Firefox (wersja 95)
-- System operacyjny: Windows 10 Home, 64-bitowy system operacyjny oraz Android 11
+- **Hardware:** Desktop computer and smartphone.
+- **Browsers:** Chrome (version 88) and Mozilla Firefox (version 95).
+- **Operating Systems:** Windows 10 Home (64-bit) and Android 11.
 
-## Podejście
+## Approach
 
-### 1. Strategia testowania
+### 1. Testing Strategy
 
-- Wykonanie testów manualnych i eksploracyjnych w celu sprawdzenia funkcjonalności, kompatybilności, wydajności, użyteczności, bezpieczeństwa oraz lokalizacji serwisu Allegro.pl.
+- Execution of manual and exploratory tests to verify the functionality, compatibility, performance, usability, security, and localization of Allegro.pl.
 
-### 2. Metodyki
+### 2. Methodologies
 
-- Wykorzystanie metodyki Agile oraz Scrum w celu szybkiego reagowania na zmiany oraz ciągłego doskonalenia jakości oprogramowania.
+- Utilization of **Agile** and **Scrum** methodologies to quickly adapt to changes and continuously improve software quality.
 
-### 3. Poziomy testowania
+### 3. Levels of Testing
 
-- Testy jednostkowe: przeprowadzone przez programistów na poziomie kodu.
-- Testy integracyjne: sprawdzenie współpracy między różnymi modułami serwisu.
-- Testy systemowe: testowanie całego systemu pod kątem spełnienia wymagań.
-- Testy akceptacyjne: sprawdzenie, czy system spełnia oczekiwania użytkowników końcowych.
+- **Unit Testing:** Conducted by developers at the code level.
+- **Integration Testing:** Verifying interactions between different modules of the platform.
+- **System Testing:** Ensuring that the entire system meets requirements.
+- **Acceptance Testing:** Validating that the system meets end-user expectations.
 
-### 4. Schemat wykonania testów
+### 4. Testing Execution Workflow
 
-- Przygotowanie środowiska testowego i narzędzi.
-- Przeprowadzenie testów zgodnie z przypadkami testowymi.
-- Dokumentacja i raportowanie wyników testów w TestRail.
-- Zgłaszanie ewentualnych błędów w JIRA.
-- Weryfikacja naprawionych błędów i aktualizacja wyników testów.  
-- Komunikacja z zespołem programistów w celu poprawy jakości oprogramowania.
+- Preparation of the test environment and tools.
+- Execution of tests based on test cases.
+- Documentation and reporting of test results in TestRail.
+- Reporting of any defects in JIRA.
+- Verification of fixed defects and updating test results.
+- Communication with the development team to improve software quality.
 
-### 5. Harmonogram
-1. **Czas trwania testów**:  
-   Estymowany czas trwania testów wynosi 4 tygodnie.
-2. **Kamienie milowe**:  
-   - Rozpoczęcie testów: 01.05.2023
-   - Zakończenie testów: 29.05.2023
-   - Przekazanie wyników testów: 31.05.2023
+### 5. Test Schedule
 
-### 6. Przypadki testowe
-1. **Testy funkcjonalne**:
-   - Rejestracja, logowanie i wylogowanie.
-   - Wyszukiwanie, filtrowanie i sortowanie produktów.
-   - Dodawanie produktów do koszyka i realizacja zamówień.
-   - Zarządzanie kontem użytkownika (dane, historie zamówień, obserwowane produkty).
-   - Dodawanie, edycja i usuwanie aukcji przez sprzedawcę.
-   - Komentowanie i ocenianie transakcji.
+1. **Estimated test duration:**  
+   The estimated duration of testing is **4 weeks**.
 
-2. **Testy kompatybilności**:
-   - Testowanie na różnych przeglądarkach i urządzeniach.
-   - Testowanie na różnych systemach operacyjnych.
+2. **Milestones:**  
+   - Test start: **01.05.2023**  
+   - Test completion: **29.05.2023**  
+   - Delivery of test results: **31.05.2023**  
 
-3. **Testy wydajności**:
-   - Testowanie czasu ładowania strony i poszczególnych elementów.
-   - Testowanie strony pod obciążeniem.
+### 6. Test Cases
 
-4. **Testy użyteczności**:
-   - Sprawdzenie czytelności, dostępności i intuicyjności strony.
+1. **Functional Tests:**
+   - Registration, login, and logout.
+   - Searching, filtering, and sorting products.
+   - Adding products to the cart and completing orders.
+   - Managing user accounts (personal data, order history, watched products).
+   - Adding, editing, and deleting listings by sellers.
+   - Commenting and rating transactions.
 
-5. **Testy bezpieczeństwa**:
-   - Testowanie zabezpieczeń danych użytkowników.
+2. **Compatibility Tests:**
+   - Testing across different browsers and devices.
+   - Testing on different operating systems.
 
-6. **Testy eksploracyjne**:
-   - Niekierowane testowanie strony w celu znalezienia ewentualnych błędów.
+3. **Performance Tests:**
+   - Measuring page load times and individual element performance.
+   - Load testing of the website.
 
-### 7. Metryki i kryteria zakończenia testów
-1. **Metryki**:
-   - Liczba znalezionych błędów.
-   - Czas odpowiedzi na zgłoszenie błędu.
-   - Liczba naprawionych błędów.
+4. **Usability Tests:**
+   - Evaluating readability, accessibility, and intuitiveness of the platform.
 
-2. **Kryteria zakończenia testów**:
-   - Wszystkie zgłoszone błędy są naprawione lub zaakceptowane jako ograniczenia systemu.
-   - Żadne nowe krytyczne błędy nie są zgłaszane przez co najmniej 5 dni roboczych.
-   - Osiągnięcie zadowalających wyników dla wszystkich metryk.
+5. **Security Tests:**
+   - Verifying user data protection measures.
 
-### 8. Procedury zarządzania ryzykiem i problemami
-Identyfikacja, analiza i reagowanie na ryzyka i problemy, które mogą wystąpić podczas procesu testowania, takie jak opóźnienia, zmiany w wymaganiach, brak dostępności zasobów czy nieprzewidziane problemy techniczne.
+6. **Exploratory Tests:**
+   - Conducting non-directed testing to discover potential issues.
 
-### 9. Zakończenie
-- Ten plan testów stanowi ramy pracy dla testowania serwisu Allegro.pl. W trakcie testów może być konieczne dostosowanie planu w odpowiedzi na zmiany w wymaganiach lub napotkane problemy. Po zakończeniu testów, należy przekazać wyniki testów, rekomendacje oraz ewentualne wnioski do zespołu deweloperskiego, aby wspólnie pracować nad doskonaleniem jakości serwisu Allegro.pl.
+### 7. Metrics and Exit Criteria
 
+1. **Metrics:**
+   - Number of identified defects.
+   - Response time to defect reports.
+   - Number of fixed defects.
+
+2. **Exit Criteria:**
+   - All reported defects have been fixed or accepted as system limitations.
+   - No new critical defects reported for at least **5 business days**.
+   - Achieving satisfactory results in all key metrics.
+
+### 8. Risk and Issue Management
+
+Identification, analysis, and response to risks and issues that may arise during testing, such as delays, changes in requirements, lack of resources, or unforeseen technical problems.
+
+### 9. Conclusion
+
+- This test plan serves as a framework for testing Allegro.pl. Adjustments may be necessary during testing in response to changes in requirements or encountered issues.  
+- Upon completion, test results, recommendations, and insights should be shared with the development team to collaborate on further improving the platform's quality.
